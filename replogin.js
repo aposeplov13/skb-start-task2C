@@ -1,6 +1,6 @@
 export default function replogin(url){
     if (url ==""){ // проверка на пустую строку
-			return nameout = "Invalid username";
+	    return nameout = "Invalid username";
 	}
     var nameout = "@";
 	nameout = nameout + url.replace(/(\/*)?.+?\.(com|ru|net|me|xn.[^\/]*)\//i,"");
